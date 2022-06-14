@@ -1,2 +1,2 @@
 # TicketApp
-Online Reservationa and Sales System
+Online Reservation and Sales System
