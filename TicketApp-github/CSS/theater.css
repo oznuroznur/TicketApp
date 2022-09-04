@@ -1,0 +1,91 @@
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #3e4555;
+    font-size: 30px;
+}
+
+#showcase,#leftmenu{ 
+    background: 
+    linear-gradient(to bottom, rgba(252, 153, 124, 0.2),rgba(250, 81, 30, 0.2)),
+    url('/pics/Poster.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 40vh;
+    width: 100%;
+    position:relative;
+       
+}
+
+#showcase .content {
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background: rgba(144, 83, 13, 0.3);
+    padding: 40px 40px 50px;
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 150px;
+}
+#showcase h1 {
+  
+    position: absolute;
+    font-family: "Lato", sans-serif;
+    top : 50%;
+    margin: 0;
+    color: #fff;
+    font-size: 30px;
+    left: 50%;
+    cursor:default;
+    transform: translate(-50%, -50%);
+ 
+}
+.btn-group button {
+
+      border: 1px solid rgba(144, 83, 13, 0.3); 
+      color: black; /* White text */
+      margin-top: 50px ;
+      top : 70%;
+      left: 10%;
+      transform: translate(0%,0%);     
+      font-size: 20px;
+      background-color: rgba(144, 83, 13, 0.3);  
+      padding-top: 18px;
+      width: 15%;
+      margin-top: 55px;
+      display:block;
+}
+
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color:saddlebrown;
+}
+
+
+.show {display: block;}
+
+
+/* buy buttons*/
+.button {
+  padding: 5px 21px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: wheat;
+  background-color: orange;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: black}
